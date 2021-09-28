@@ -1,0 +1,509 @@
+!SESSION 2021-09-14 14:04:35.253 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-14 14:05:38.769
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-14 14:05:38.769
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dc2e473,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ebfb2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-14 14:05:51.177
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Igor'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:25.759
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:25.761
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1741e4a6[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:25.781
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.jface 2 0 2021-09-14 14:13:26.171
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-14 14:13:26.172
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@737e8e66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@622ec92a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:26.181
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.385
+!MESSAGE Boot LS startup time from start to initialized: 8567ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.682
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FeyaXBLHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.687
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.696
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.698
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:13:34.699
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FeyaXBLH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:21:25.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:21:25.928
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:21:25.936
+!MESSAGE buffering callback sts4.classpath.FeyaXBLH minhasfinancas false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:21:25.937
+!MESSAGE executing callback sts4.classpath.FeyaXBLH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:21:27.987
+!MESSAGE executing callback sts4.classpath.FeyaXBLH FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-14 14:21:27.988
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:27:01.461
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FeyaXBLH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:27:01.471
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FeyaXBLH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:27:01.476
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:27:01.478
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FeyaXBLH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:13.951
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:13.971
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1741e4a6[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:13.973
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:14.242
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:14.249
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1741e4a6[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:14.251
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.610
+!MESSAGE Boot LS startup time from start to initialized: 5357ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.920
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.syOafKTxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.924
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.929
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.931
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.932
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.syOafKTx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:19.934
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:20.006
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:20.042
+!MESSAGE buffering callback sts4.classpath.syOafKTx minhasfinancas false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:20.044
+!MESSAGE executing callback sts4.classpath.syOafKTx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-14 14:45:22.057
+!MESSAGE executing callback sts4.classpath.syOafKTx FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-14 14:45:22.060
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-09-14 15:26:47.952
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-09-21 20:49:06.535 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-21 20:49:33.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-21 20:49:33.240
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@587400a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f0f92f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-21 20:49:43.996
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Igor'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-09-21 21:05:57.269
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-09-21 21:37:21.102 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-21 21:38:13.191
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-21 21:38:13.191
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@508b4f70,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32f14274,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-21 21:38:17.499
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Igor'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-09-21 21:38:23.235
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-09-21 21:38:26.479
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.jdt.internal.BuildPathManager.getSavedContainer(org.eclipse.core.resources.IProject)" because the return value of "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager()" is null
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:48)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3195)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4553)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-21 21:38:26.559
+!MESSAGE Error injecting: org.apache.maven.artifact.resolver.DefaultArtifactResolver
+!STACK 0
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) null returned by binding at org.eclipse.sisu.wire.LocatorWiring
+ but org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source) is not @Nullable
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.inheritance.InheritanceAssembler
+    for field at org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.model.building.DefaultModelBuilder
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.building.ModelBuilder
+    for the 5th parameter of org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.<init>(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.eclipse.aether.impl.ArtifactDescriptorReader
+    for the 5th parameter of org.eclipse.aether.internal.impl.DefaultRepositorySystem.<init>(Unknown Source)
+  while locating org.eclipse.aether.internal.impl.DefaultRepositorySystem
+  while locating java.lang.Object annotated with *
+  while locating org.apache.maven.artifact.resolver.DefaultArtifactResolver
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.eclipse.sisu.plexus.PlexusRequirements$RequirementProvider.get(PlexusRequirements.java:250)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at org.eclipse.sisu.bean.BeanScheduler$CycleActivator.onProvision(BeanScheduler.java:230)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:120)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:424)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:244)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMirrors(MavenImpl.java:1197)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:226)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-21 21:38:26.587
+!MESSAGE Error injecting: org.apache.maven.repository.legacy.LegacyRepositorySystem
+!STACK 0
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) null returned by binding at org.eclipse.sisu.wire.LocatorWiring
+ but org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source) is not @Nullable
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.inheritance.InheritanceAssembler
+    for field at org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.model.building.DefaultModelBuilder
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.building.ModelBuilder
+    for the 5th parameter of org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.<init>(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.eclipse.aether.impl.ArtifactDescriptorReader
+    for the 5th parameter of org.eclipse.aether.internal.impl.DefaultRepositorySystem.<init>(Unknown Source)
+  while locating org.eclipse.aether.internal.impl.DefaultRepositorySystem
+  while locating java.lang.Object annotated with *
+  while locating org.apache.maven.artifact.resolver.DefaultArtifactResolver
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.artifact.resolver.ArtifactResolver
+  while locating org.apache.maven.repository.legacy.LegacyRepositorySystem
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at org.eclipse.sisu.bean.BeanScheduler$CycleActivator.onProvision(BeanScheduler.java:230)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:120)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:168)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:424)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:244)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMirrors(MavenImpl.java:1197)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:226)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2021-09-21 21:38:26.594
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) null returned by binding at org.eclipse.sisu.wire.LocatorWiring
+ but org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source) is not @Nullable
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.inheritance.InheritanceAssembler
+    for field at org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.model.building.DefaultModelBuilder
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.building.ModelBuilder
+    for the 5th parameter of org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.<init>(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.eclipse.aether.impl.ArtifactDescriptorReader
+    for the 5th parameter of org.eclipse.aether.internal.impl.DefaultRepositorySystem.<init>(Unknown Source)
+  while locating org.eclipse.aether.internal.impl.DefaultRepositorySystem
+  while locating java.lang.Object annotated with *
+  while locating org.apache.maven.artifact.resolver.DefaultArtifactResolver
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.artifact.resolver.ArtifactResolver
+  while locating org.apache.maven.repository.legacy.LegacyRepositorySystem
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.RepositorySystem
+
+1 error
+      role: org.apache.maven.repository.RepositorySystem
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:424)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:244)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getMirrors(MavenImpl.java:1197)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:226)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) null returned by binding at org.eclipse.sisu.wire.LocatorWiring
+ but org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source) is not @Nullable
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.inheritance.InheritanceAssembler
+    for field at org.apache.maven.model.building.DefaultModelBuilder.inheritanceAssembler(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.model.building.DefaultModelBuilder
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.apache.maven.model.building.ModelBuilder
+    for the 5th parameter of org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.<init>(Unknown Source)
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+  while locating java.lang.Object annotated with *
+  at org.eclipse.sisu.wire.LocatorWiring
+  while locating org.eclipse.aether.impl.ArtifactDescriptorReader
+    for the 5th parameter of org.eclipse.aether.internal.impl.DefaultRepositorySystem.<init>(Unknown Source)
+  while locating org.eclipse.aether.internal.impl.DefaultRepositorySystem
+  while locating java.lang.Object annotated with *
+  while locating org.apache.maven.artifact.resolver.DefaultArtifactResolver
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.artifact.resolver.ArtifactResolver
+  while locating org.apache.maven.repository.legacy.LegacyRepositorySystem
+  at ClassRealm[plexus.core, parent: null] (via modules: org.eclipse.sisu.wire.WireModule -> org.eclipse.sisu.plexus.PlexusBindingModule)
+  while locating org.apache.maven.repository.RepositorySystem
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 10 more
