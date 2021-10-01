@@ -119,7 +119,7 @@ public class LancamentoServiceImpl implements LancamentoService{
 			
 			throw new RegraNegocioException("Informe um Ano válido.");
 		}
-		if (lancamento.getUsuario() == null || lancamento.getId()==null) {
+		if (lancamento.getUsuario() == null || lancamento.getUsuario().getId()==null) {
 			throw new RegraNegocioException("Informe um Usuário.");
 		}
 		if (lancamento.getValor()==null || lancamento.getValor().compareTo(BigDecimal.ZERO) < 1) {
