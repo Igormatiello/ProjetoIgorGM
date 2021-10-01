@@ -25,7 +25,6 @@ public class UsuarioRepositoryTest {
 
 	@Autowired
 	UsuarioRepository repository;
-	
 	@Autowired
 	TestEntityManager entityManager; //operações dentro do banco de dados
 	
@@ -128,3 +127,4 @@ public class UsuarioRepositoryTest {
 	
 	
 }
+

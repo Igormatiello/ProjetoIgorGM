@@ -67,7 +67,7 @@ public class LancamentoServiceImpl implements LancamentoService{
 		
 		Objects.requireNonNull(lancamento.getId());
 		
-		repository.delete((Usuario) repository);
+		repository.delete(lancamento);
 		
 	}
 
@@ -120,7 +120,7 @@ public class LancamentoServiceImpl implements LancamentoService{
 			throw new RegraNegocioException("Informe um Ano válido.");
 		}
 		if (lancamento.getUsuario() == null || lancamento.getId()==null) {
-			throw new RegraNegocioException("Informe um Usuáio.");
+			throw new RegraNegocioException("Informe um Usuário.");
 		}
 		if (lancamento.getValor()==null || lancamento.getValor().compareTo(BigDecimal.ZERO) < 1) {
 			throw new RegraNegocioException("Informe um Valor Válido.");

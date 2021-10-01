@@ -10,7 +10,7 @@ import com.imatiello.minhasfinancas.model.entity.Lancamento;
 import com.imatiello.minhasfinancas.model.entity.Usuario;
 import com.imatiello.minhasfinancas.model.enums.TipoLancamento;
 
-public interface LancamentoRepository extends JpaRepository< Usuario, Long>{
+public interface LancamentoRepository extends JpaRepository< Lancamento, Long>{
 
 	Lancamento save(Lancamento lancamento);
 
@@ -18,5 +18,7 @@ public interface LancamentoRepository extends JpaRepository< Usuario, Long>{
 			+ "where u.id = :idUsuario and l.tipo=:tipo group by u")
 	BigDecimal obterSaldoPorTipoLancamentoEUsuario
 	( @Param("idUsuario") Long idUsuaior, @Param("tipo") TipoLancamento tipo  );
+
+	void delete(Lancamento lancamento);
 	
 }
